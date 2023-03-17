@@ -10,3 +10,13 @@ elsif number == 2
 else
     puts "よくがんばったね"
 end
+
+# 自分の得意な言語で
+# Let's チャレンジ！！
+X = gets.to_i
+Y = gets.to_i
+if X > Y
+    puts "Thank you"
+else
+    puts Y - X
+end
