@@ -1,8 +1,8 @@
 # 自分の得意な言語で
 # Let's チャレンジ！！
-word = gets.chomp.split('')
-word.each do |w|
-  case w
+words = gets.chomp.split('')
+words.each do |word|
+  case word
   when 'A'
     print '4'
   when 'E'
@@ -18,6 +18,6 @@ word.each do |w|
   when 'Z'
     print '2'
   else
-    print w
+    print word
   end
 end
