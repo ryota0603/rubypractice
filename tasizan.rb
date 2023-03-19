@@ -5,3 +5,10 @@ for i in 1..n do
     s = s + s[i]
 end
 puts s
+
+t = gets.to_i
+if 30 <= t && t < 35
+   puts "M"
+else
+    puts t
+end
