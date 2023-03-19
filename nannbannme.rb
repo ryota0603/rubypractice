@@ -7,3 +7,9 @@ for i in 1..n
      puts (i + 1)
     end
 end
+
+# 自分の得意な言語で
+# Let's チャレンジ！！
+alp = gets.chomp
+index = ('A'..'Z').to_a.find_index(alp) + 1
+print index # 追加
