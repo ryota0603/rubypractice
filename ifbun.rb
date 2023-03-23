@@ -20,3 +20,16 @@ if X > Y
 else
     puts Y - X
 end
+
+# 自分の得意な言語で
+# Let's チャレンジ！！
+time = gets.to_i
+if 1 <= time && time <= 24
+    puts 1
+elsif 24 < time && time <= 48
+    puts 2
+elsif 48 < time && time <= 72
+    puts 3
+elsif 72 < time && time <= 100
+    puts 4
+end
